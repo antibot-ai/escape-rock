@@ -10,7 +10,7 @@ source  = {
 build = {
   type = 'builtin',
   modules = {
-    ['escape'] = 'init.lua',
+    [package] = 'lua/'..package..'/init.lua'
   }
 }
 dependencies = {
